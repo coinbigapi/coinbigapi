@@ -35,7 +35,7 @@ function connection(url) {
 };
 
 function sendMsg(type){
-	 ws.send('{"datatype":"API_NEW","data":27}}');
+	 ws.send('{"datatype":"'+type+'","data":27}}');
 	 
 	
 }
